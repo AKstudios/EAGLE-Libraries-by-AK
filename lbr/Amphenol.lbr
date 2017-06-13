@@ -86,10 +86,10 @@
 <pad name="6" x="6.135" y="7.405" drill="0.55" diameter="0.95"/>
 <pad name="8" x="6.135" y="8.675" drill="0.55" diameter="0.95"/>
 <pad name="10" x="6.135" y="9.945" drill="0.55" diameter="0.95"/>
-<wire x1="47" y1="0" x2="47" y2="37" width="0.127" layer="48"/>
-<wire x1="47" y1="37" x2="0" y2="37" width="0.127" layer="48"/>
-<wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="48"/>
-<wire x1="0" y1="0" x2="0" y2="37" width="0.127" layer="48"/>
+<wire x1="47.7" y1="0" x2="47.7" y2="36.7" width="0.127" layer="48"/>
+<wire x1="47.7" y1="36.7" x2="0" y2="36.7" width="0.127" layer="48"/>
+<wire x1="47.7" y1="0" x2="0" y2="0" width="0.127" layer="48"/>
+<wire x1="0" y1="0" x2="0" y2="36.7" width="0.127" layer="48"/>
 <text x="39" y="34" size="1.27" layer="48">PMS7003</text>
 </package>
 <package name="RECEPTACLE_1.27MM_2X6">
