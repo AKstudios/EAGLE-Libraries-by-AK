@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -72,20 +72,20 @@
 <library>
 <packages>
 <package name="RECEPTACLE_1.27MM_2X5">
-<wire x1="3" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="6" y1="3" x2="6" y2="9.81" width="0.127" layer="21"/>
-<wire x1="6" y1="9.81" x2="3" y2="9.81" width="0.127" layer="21"/>
-<wire x1="3" y1="9.81" x2="3" y2="3" width="0.127" layer="21"/>
-<pad name="1" x="3.865" y="3.865" drill="0.55" diameter="0.95"/>
-<pad name="3" x="3.865" y="5.135" drill="0.55" diameter="0.95"/>
-<pad name="5" x="3.865" y="6.405" drill="0.55" diameter="0.95"/>
-<pad name="7" x="3.865" y="7.675" drill="0.55" diameter="0.95"/>
-<pad name="9" x="3.865" y="8.945" drill="0.55" diameter="0.95"/>
-<pad name="2" x="5.135" y="3.865" drill="0.55" diameter="0.95"/>
-<pad name="4" x="5.135" y="5.135" drill="0.55" diameter="0.95"/>
-<pad name="6" x="5.135" y="6.405" drill="0.55" diameter="0.95"/>
-<pad name="8" x="5.135" y="7.675" drill="0.55" diameter="0.95"/>
-<pad name="10" x="5.135" y="8.945" drill="0.55" diameter="0.95"/>
+<wire x1="4" y1="4" x2="7" y2="4" width="0.127" layer="21"/>
+<wire x1="7" y1="4" x2="7" y2="10.81" width="0.127" layer="21"/>
+<wire x1="7" y1="10.81" x2="4" y2="10.81" width="0.127" layer="21"/>
+<wire x1="4" y1="10.81" x2="4" y2="4" width="0.127" layer="21"/>
+<pad name="1" x="4.865" y="4.865" drill="0.55" diameter="0.95"/>
+<pad name="3" x="4.865" y="6.135" drill="0.55" diameter="0.95"/>
+<pad name="5" x="4.865" y="7.405" drill="0.55" diameter="0.95"/>
+<pad name="7" x="4.865" y="8.675" drill="0.55" diameter="0.95"/>
+<pad name="9" x="4.865" y="9.945" drill="0.55" diameter="0.95"/>
+<pad name="2" x="6.135" y="4.865" drill="0.55" diameter="0.95"/>
+<pad name="4" x="6.135" y="6.135" drill="0.55" diameter="0.95"/>
+<pad name="6" x="6.135" y="7.405" drill="0.55" diameter="0.95"/>
+<pad name="8" x="6.135" y="8.675" drill="0.55" diameter="0.95"/>
+<pad name="10" x="6.135" y="9.945" drill="0.55" diameter="0.95"/>
 <wire x1="47" y1="0" x2="47" y2="37" width="0.127" layer="48"/>
 <wire x1="47" y1="37" x2="0" y2="37" width="0.127" layer="48"/>
 <wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="48"/>
