@@ -77,11 +77,12 @@
 <wire x1="0" y1="0" x2="4" y2="4" width="0.127" layer="49"/>
 <wire x1="0" y1="0" x2="4" y2="-4" width="0.127" layer="49"/>
 <wire x1="0" y1="0" x2="-4" y2="-4" width="0.127" layer="49"/>
-<pad name="P$1" x="-3.6" y="-3.6" drill="0.7" diameter="1.4224"/>
-<pad name="P$2" x="3.6" y="-3.6" drill="0.7" diameter="1.4224"/>
-<pad name="P$3" x="3.6" y="3.6" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.6" y="-3.6" drill="0.7" diameter="1.4224"/>
+<pad name="3" x="3.6" y="3.6" drill="0.7" diameter="1.4224"/>
 <circle x="0" y="0" radius="9.5" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<pad name="2" x="-3.589" y="3.6" drill="0.7" diameter="1.4224"/>
+<wire x1="0" y1="0" x2="-4" y2="4" width="0.127" layer="49"/>
+<circle x="-3.589" y="-3.6" radius="1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -105,9 +106,9 @@
 <devices>
 <device name="" package="EKMB1201111_3PIN">
 <connects>
-<connect gate="G$1" pin="GND" pad="P$1"/>
-<connect gate="G$1" pin="OUT" pad="P$2"/>
-<connect gate="G$1" pin="VCC" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
