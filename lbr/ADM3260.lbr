@@ -234,8 +234,6 @@ package type SS</description>
 <pin name="GNDISO@3" x="17.78" y="-7.62" length="short" rot="R180"/>
 <pin name="GNDISO@4" x="17.78" y="-5.08" length="short" rot="R180"/>
 <pin name="GNDP@1" x="-17.78" y="-2.54" length="short" direction="pwr"/>
-<pin name="NC@1" x="-17.78" y="0" length="short" direction="pwr"/>
-<pin name="NC@2" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="SDA1" x="17.78" y="0" length="short" direction="pwr" rot="R180"/>
 <pin name="SCL1" x="17.78" y="2.54" length="short" rot="R180"/>
 <pin name="VSEL" x="17.78" y="5.08" length="short" rot="R180"/>
@@ -265,8 +263,6 @@ github.com/akstudios</description>
 <connect gate="G$1" pin="GNDP@2" pad="5"/>
 <connect gate="G$1" pin="GNDP@3" pad="7"/>
 <connect gate="G$1" pin="GNDP@4" pad="10"/>
-<connect gate="G$1" pin="NC@1" pad="6"/>
-<connect gate="G$1" pin="NC@2" pad="15"/>
 <connect gate="G$1" pin="PDIS" pad="8"/>
 <connect gate="G$1" pin="SCL1" pad="19"/>
 <connect gate="G$1" pin="SCL2" pad="2"/>
