@@ -1,0 +1,178 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN21P50_400X400X100L40X24T270N">
+<wire x1="-2" y1="1.524" x2="-2" y2="2" width="0.2" layer="21"/>
+<wire x1="-2" y1="2" x2="-1.524" y2="2" width="0.2" layer="21"/>
+<wire x1="1.524" y1="2" x2="2" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="1.524" x2="2" y2="2" width="0.2" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.524" width="0.2" layer="21"/>
+<wire x1="-2" y1="-2" x2="-1.524" y2="-2" width="0.2" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.524" width="0.2" layer="21"/>
+<wire x1="1.524" y1="-2" x2="2" y2="-2" width="0.2" layer="21"/>
+<circle x="-2.54" y="1.397" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.667" y1="2.667" x2="-2.667" y2="-2.667" width="0.05" layer="39"/>
+<wire x1="-2.667" y1="-2.667" x2="2.667" y2="-2.667" width="0.05" layer="39"/>
+<wire x1="2.667" y1="-2.667" x2="2.667" y2="2.667" width="0.05" layer="39"/>
+<wire x1="2.667" y1="2.667" x2="-2.667" y2="2.667" width="0.05" layer="39"/>
+<text x="-2.54497" y="3.18121" size="1.27249" layer="25">&gt;NAME</text>
+<text x="-2.54241" y="-4.44921" size="1.2712" layer="27">&gt;VALUE</text>
+<rectangle x1="0.130064" y1="0.130064" x2="1.09" y2="1.09" layer="31"/>
+<rectangle x1="-1.09037" y1="0.130045" x2="-0.13" y2="1.09" layer="31" rot="R90"/>
+<rectangle x1="0.130131" y1="-1.0911" x2="1.09" y2="-0.13" layer="31" rot="R270"/>
+<rectangle x1="-1.09016" y1="-1.09016" x2="-0.13" y2="-0.13" layer="31" rot="R180"/>
+<smd name="1" x="-1.905" y="1" dx="0.71" dy="0.26" layer="1" roundness="54"/>
+<smd name="2" x="-1.905" y="0.5" dx="0.71" dy="0.26" layer="1" roundness="54"/>
+<smd name="3" x="-1.905" y="0" dx="0.71" dy="0.26" layer="1" roundness="54"/>
+<smd name="4" x="-1.905" y="-0.5" dx="0.71" dy="0.26" layer="1" roundness="54"/>
+<smd name="5" x="-1.905" y="-1" dx="0.71" dy="0.26" layer="1" roundness="54"/>
+<smd name="6" x="-1" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90"/>
+<smd name="7" x="-0.5" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90"/>
+<smd name="8" x="0" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90"/>
+<smd name="9" x="0.5" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90"/>
+<smd name="10" x="1" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90"/>
+<smd name="11" x="1.905" y="-1" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180"/>
+<smd name="12" x="1.905" y="-0.5" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180"/>
+<smd name="13" x="1.905" y="0" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180"/>
+<smd name="14" x="1.905" y="0.5" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180"/>
+<smd name="15" x="1.905" y="1" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180"/>
+<smd name="16" x="1" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
+<smd name="17" x="0.5" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
+<smd name="18" x="0" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
+<smd name="19" x="-0.5" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
+<smd name="20" x="-1" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
+<smd name="21" x="0" y="0" dx="2.7" dy="2.7" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP23008-E/ML">
+<wire x1="-10.16" y1="19.05" x2="-10.16" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-19.05" x2="10.16" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-19.05" x2="10.16" y2="19.05" width="0.254" layer="94"/>
+<wire x1="10.16" y1="19.05" x2="-10.16" y2="19.05" width="0.254" layer="94"/>
+<text x="-10.171" y="19.5793" size="1.67822" layer="95">&gt;NAME</text>
+<text x="-10.1729" y="-21.6173" size="1.67852" layer="96">&gt;VALUE</text>
+<pin name="SCL" x="-15.24" y="16.51" length="middle" direction="in" function="clk"/>
+<pin name="SDA" x="-15.24" y="13.97" length="middle"/>
+<pin name="A2" x="-15.24" y="3.81" length="middle"/>
+<pin name="A1" x="-15.24" y="6.35" length="middle" direction="in"/>
+<pin name="A0" x="-15.24" y="8.89" length="middle" direction="in"/>
+<pin name="!RESET" x="-15.24" y="-1.27" length="middle" direction="in"/>
+<pin name="INT" x="15.24" y="11.43" length="middle" direction="out" rot="R180"/>
+<pin name="VSS" x="15.24" y="-16.51" length="middle" direction="pwr" rot="R180"/>
+<pin name="GP0" x="15.24" y="6.35" length="middle" rot="R180"/>
+<pin name="GP1" x="15.24" y="3.81" length="middle" rot="R180"/>
+<pin name="GP2" x="15.24" y="1.27" length="middle" rot="R180"/>
+<pin name="GP3" x="15.24" y="-1.27" length="middle" rot="R180"/>
+<pin name="GP4" x="15.24" y="-3.81" length="middle" rot="R180"/>
+<pin name="GP5" x="15.24" y="-6.35" length="middle" rot="R180"/>
+<pin name="GP6" x="15.24" y="-8.89" length="middle" rot="R180"/>
+<pin name="GP7" x="15.24" y="-11.43" length="middle" rot="R180"/>
+<pin name="VDD" x="15.24" y="16.51" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP23008-E/ML" prefix="U">
+<description>MCP23008 Series 5.5 V 1.7 MHz 8-Bit I/O Expander with Serial Interface - QFN-20</description>
+<gates>
+<gate name="G$1" symbol="MCP23008-E/ML" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN21P50_400X400X100L40X24T270N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="A0" pad="3"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="1"/>
+<connect gate="G$1" pin="GP0" pad="9"/>
+<connect gate="G$1" pin="GP1" pad="10"/>
+<connect gate="G$1" pin="GP2" pad="11"/>
+<connect gate="G$1" pin="GP3" pad="12"/>
+<connect gate="G$1" pin="GP4" pad="13"/>
+<connect gate="G$1" pin="GP5" pad="14"/>
+<connect gate="G$1" pin="GP6" pad="15"/>
+<connect gate="G$1" pin="GP7" pad="16"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="19"/>
+<connect gate="G$1" pin="SDA" pad="20"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="17"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Microchip"/>
+<attribute name="Price" value="None"/>
+<attribute name="MP" value="MCP23008-E/ML"/>
+<attribute name="Availability" value="Unavailable"/>
+<attribute name="Package" value="QFN-20 Microchip"/>
+<attribute name="Description" value="
+MCP23008 Series 5.5 V 1.7 MHz 8-Bit I/O Expander with Serial Interface - QFN-20
+"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
