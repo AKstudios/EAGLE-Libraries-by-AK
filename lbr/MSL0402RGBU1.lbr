@@ -78,12 +78,12 @@
 <wire x1="1.8" y1="0" x2="1.8" y2="1.6" width="0.1016" layer="21"/>
 <wire x1="1.8" y1="1.6" x2="0" y2="1.6" width="0.1016" layer="21"/>
 <wire x1="0" y1="1.6" x2="0" y2="0" width="0.1016" layer="21"/>
-<smd name="B-" x="1.675" y="0.215" dx="0.83" dy="0.67" layer="1" rot="R90"/>
-<smd name="G-" x="0.905" y="0.215" dx="0.83" dy="0.37" layer="1" rot="R90"/>
-<smd name="R-" x="0.135" y="0.215" dx="0.83" dy="0.67" layer="1" rot="R90"/>
-<smd name="R+" x="0.135" y="1.385" dx="0.83" dy="0.67" layer="1" rot="R90"/>
-<smd name="G+" x="0.905" y="1.385" dx="0.83" dy="0.37" layer="1" rot="R90"/>
-<smd name="B+" x="1.675" y="1.385" dx="0.83" dy="0.67" layer="1" rot="R90"/>
+<smd name="B+" x="1.675" y="0.215" dx="0.83" dy="0.67" layer="1" rot="R90"/>
+<smd name="G+" x="0.905" y="0.215" dx="0.83" dy="0.37" layer="1" rot="R90"/>
+<smd name="R+" x="0.135" y="0.215" dx="0.83" dy="0.67" layer="1" rot="R90"/>
+<smd name="R-" x="0.135" y="1.385" dx="0.83" dy="0.67" layer="1" rot="R90"/>
+<smd name="G-" x="0.905" y="1.385" dx="0.83" dy="0.37" layer="1" rot="R90"/>
+<smd name="B-" x="1.675" y="1.385" dx="0.83" dy="0.67" layer="1" rot="R90"/>
 <wire x1="0.1" y1="1.5" x2="0.47" y2="1.5" width="0.01" layer="49"/>
 <wire x1="0.47" y1="1.5" x2="0.47" y2="0.97" width="0.01" layer="49"/>
 <wire x1="0.47" y1="0.97" x2="0.1" y2="0.97" width="0.01" layer="49"/>
