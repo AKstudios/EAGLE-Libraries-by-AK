@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="JST_XA_2.5MM_10PIN_SIDE_ENTRY">
+<package name="JST_XA_2.5MM_5PIN_SIDE_ENTRY">
 <pad name="P$1" x="0" y="0" drill="1" diameter="1.85"/>
 <pad name="P$2" x="2.5" y="0" drill="1" diameter="1.85"/>
 <pad name="P$3" x="5" y="0" drill="1" diameter="1.85"/>
@@ -99,7 +99,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="JST-XA-10PIN-2.5MM">
+<symbol name="JST-XA-5PIN-2.5MM">
 <wire x1="-5.08" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="12.7" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
@@ -114,14 +114,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST_S10B-XASK-1">
+<deviceset name="S05B-XASK-1">
 <description>Designed by AKstudios&lt;br&gt;
 github.com/akstudios</description>
 <gates>
-<gate name="G$1" symbol="JST-XA-10PIN-2.5MM" x="0" y="0"/>
+<gate name="G$1" symbol="JST-XA-5PIN-2.5MM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST_XA_2.5MM_10PIN_SIDE_ENTRY">
+<device name="" package="JST_XA_2.5MM_5PIN_SIDE_ENTRY">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
