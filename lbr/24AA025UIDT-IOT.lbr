@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MICROCHIP_24AA025UIDT-I-OT_0">
+                    <description>MCHP-24AA025E64_025UID-SOT-23-6</description>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.35" y1="-1.55" x1="0.35"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="-0.35" y1="-1.55" x1="-0.35"/>
+                    <wire layer="21" y2="-1.55" width="0.15" x2="0.35" y1="-1.55" x1="-0.35"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.35" y1="1.55" x1="-0.35"/>
+                    <wire layer="51" y2="-1.55" width="0.1" x2="0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="-1.55" x1="0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="-0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="39" y2="1.65" width="0.1" x2="-1.75" y1="-1.65" x1="-1.75"/>
+                    <wire layer="39" y2="1.65" width="0.1" x2="1.75" y1="1.65" x1="-1.75"/>
+                    <wire layer="39" y2="-1.65" width="0.1" x2="1.75" y1="1.65" x1="1.75"/>
+                    <wire layer="39" y2="-1.65" width="0.1" x2="-1.75" y1="-1.65" x1="1.75"/>
+                    <text layer="25" align="bottom-left" y="1.925" x="-2.75" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.8" x="-1.2" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.6" dy="0.9" y="0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.6" dy="0.9" y="0.0" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.6" dy="0.9" y="-0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.6" dy="0.9" y="-0.95" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.6" dy="0.9" y="0.0" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.6" dy="0.9" y="0.95" x="-1.2" rot="R90" cream="yes"/>
+                </package>
+                <package name="MICROCHIP_24AA025UIDT-I-OT_1">
+                    <description>MCHP-24AA025E64_025UID-SOT-23-6</description>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.25" y1="-1.55" x1="0.25"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="-0.25" y1="-1.55" x1="-0.25"/>
+                    <wire layer="21" y2="-1.55" width="0.15" x2="0.25" y1="-1.55" x1="-0.25"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.25" y1="1.55" x1="-0.25"/>
+                    <wire layer="51" y2="-1.55" width="0.1" x2="0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="-1.55" x1="0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="-0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="-2.0" y1="-1.8" x1="-2.0"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="2.0" y1="1.8" x1="-2.0"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="2.0" y1="1.8" x1="2.0"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="-2.0" y1="-1.8" x1="2.0"/>
+                    <text layer="25" align="bottom-left" y="1.925" x="-3.0" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.8" x="-1.2" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.6" dy="1.1" y="0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.6" dy="1.1" y="0.0" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.6" dy="1.1" y="-0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.6" dy="1.1" y="-0.95" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.6" dy="1.1" y="0.0" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.6" dy="1.1" y="0.95" x="-1.2" rot="R90" cream="yes"/>
+                </package>
+                <package name="MICROCHIP_24AA025UIDT-I-OT_2">
+                    <description>MCHP-24AA025E64_025UID-SOT-23-6</description>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.15" y1="-1.55" x1="0.15"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="-0.15" y1="-1.55" x1="-0.15"/>
+                    <wire layer="21" y2="-1.55" width="0.15" x2="0.15" y1="-1.55" x1="-0.15"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="0.15" y1="1.55" x1="-0.15"/>
+                    <wire layer="51" y2="-1.55" width="0.1" x2="0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="1.55" x1="-0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="0.9" y1="-1.55" x1="0.9"/>
+                    <wire layer="51" y2="1.55" width="0.1" x2="-0.9" y1="-1.55" x1="-0.9"/>
+                    <wire layer="39" y2="2.05" width="0.1" x2="-2.35" y1="-2.05" x1="-2.35"/>
+                    <wire layer="39" y2="2.05" width="0.1" x2="2.35" y1="2.05" x1="-2.35"/>
+                    <wire layer="39" y2="-2.05" width="0.1" x2="2.35" y1="2.05" x1="2.35"/>
+                    <wire layer="39" y2="-2.05" width="0.1" x2="-2.35" y1="-2.05" x1="2.35"/>
+                    <text layer="25" align="bottom-left" y="2.05" x="-3.35" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.85" x="-1.2" layer="21" radius="0.125" width="0.25"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.7" dy="1.3" y="0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.7" dy="1.3" y="-0.0" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.7" dy="1.3" y="-0.95" x="1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.7" dy="1.3" y="-0.95" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.7" dy="1.3" y="-0.0" x="-1.2" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.7" dy="1.3" y="0.95" x="-1.2" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MICROCHIP_24AA025UIDT-I-OT_0_0">
+                    <description>MCHP-24AA025E64_025UID-SOT-23-6</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="15.24" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.508" x2="15.24" y1="-5.08" x1="15.24"/>
+                    <wire layer="94" y2="-17.78" width="0.508" x2="0.0" y1="-17.78" x1="15.24"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="15.24" y1="-7.62" x1="15.24"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="15.24" y1="-15.24" x1="15.24"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="15.24" y1="-10.16" x1="15.24"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-22.86" x="0.0" rot="R0" size="2.54">24AA025UIDT-I/OT</text>
+                    <pin direction="in" name="SCL" visible="both" length="middle" y="-7.62" x="20.32" rot="R180"/>
+                    <pin direction="pwr" name="VSS" visible="both" length="middle" y="-15.24" x="20.32" rot="R180"/>
+                    <pin direction="io" name="SDA" visible="both" length="middle" y="-10.16" x="20.32" rot="R180"/>
+                    <pin direction="in" name="A1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="in" name="A0" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="VCC" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="MICROCHIP_24AA025UIDT-I-OT">
+                    <description>MCHP-24AA025E64_025UID-SOT-23-6</description>
+                    <gates>
+                        <gate name="G$0" symbol="MICROCHIP_24AA025UIDT-I-OT_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MICROCHIP_24AA025UIDT-I-OT_0_0" package="MICROCHIP_24AA025UIDT-I-OT_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="SCL"/>
+                                <connect gate="G$0" pad="2" pin="VSS"/>
+                                <connect gate="G$0" pad="3" pin="SDA"/>
+                                <connect gate="G$0" pad="4" pin="A1"/>
+                                <connect gate="G$0" pad="5" pin="A0"/>
+                                <connect gate="G$0" pad="6" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="10487324"/>
+                                    <attribute name="Package_Version" value="C04-028B, 12/2012"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="CCA89C8B-EAF5-4390-8FC9-B32306EB34DA"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="24AA025UIDT-I/OT"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.microchip.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521848236"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Tape and Reel"/>
+                                    <attribute name="Package_Description" value="6-Lead Plastic Small Outline Transistor, 2.9 x 1.55 mm Body, 0.95 mm Pitch"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005202A.pdf"/>
+                                    <attribute name="vault_revision" value="1D9282C6-A0DC-4745-AC75-9C8B638F0C7B"/>
+                                    <attribute name="VCC_Range" value="1.7 to 5.5 V"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1396429825"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="pin_0_0_0_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SOT-23-OT6"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MICROCHIP_24AA025UIDT-I-OT_0_1" package="MICROCHIP_24AA025UIDT-I-OT_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="SCL"/>
+                                <connect gate="G$0" pad="2" pin="VSS"/>
+                                <connect gate="G$0" pad="3" pin="SDA"/>
+                                <connect gate="G$0" pad="4" pin="A1"/>
+                                <connect gate="G$0" pad="5" pin="A0"/>
+                                <connect gate="G$0" pad="6" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="10487324"/>
+                                    <attribute name="Package_Version" value="C04-028B, 12/2012"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="CCA89C8B-EAF5-4390-8FC9-B32306EB34DA"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="24AA025UIDT-I/OT"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.microchip.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521848236"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Tape and Reel"/>
+                                    <attribute name="Package_Description" value="6-Lead Plastic Small Outline Transistor, 2.9 x 1.55 mm Body, 0.95 mm Pitch"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005202A.pdf"/>
+                                    <attribute name="vault_revision" value="1D9282C6-A0DC-4745-AC75-9C8B638F0C7B"/>
+                                    <attribute name="VCC_Range" value="1.7 to 5.5 V"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1396429825"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="pin_0_0_0_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SOT-23-OT6"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MICROCHIP_24AA025UIDT-I-OT_0_2" package="MICROCHIP_24AA025UIDT-I-OT_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="SCL"/>
+                                <connect gate="G$0" pad="2" pin="VSS"/>
+                                <connect gate="G$0" pad="3" pin="SDA"/>
+                                <connect gate="G$0" pad="4" pin="A1"/>
+                                <connect gate="G$0" pad="5" pin="A0"/>
+                                <connect gate="G$0" pad="6" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="10487324"/>
+                                    <attribute name="Package_Version" value="C04-028B, 12/2012"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="CCA89C8B-EAF5-4390-8FC9-B32306EB34DA"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="24AA025UIDT-I/OT"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.microchip.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521848236"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="Packing" value="Tape and Reel"/>
+                                    <attribute name="Package_Description" value="6-Lead Plastic Small Outline Transistor, 2.9 x 1.55 mm Body, 0.95 mm Pitch"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005202A.pdf"/>
+                                    <attribute name="vault_revision" value="1D9282C6-A0DC-4745-AC75-9C8B638F0C7B"/>
+                                    <attribute name="VCC_Range" value="1.7 to 5.5 V"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1396429825"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="pin_0_0_0_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SOT-23-OT6"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
