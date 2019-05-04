@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,6 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -817,6 +819,98 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="11.8618" y="-1.016" curve="-90"/>
 </polygon>
 </package>
+<package name="ML414H_IV01E">
+<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3V&lt;/li&gt;
+&lt;li&gt;1mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diamter&lt;/li&gt;
+&lt;/ul&gt;</description>
+<circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
+<smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
+<polygon width="0.05" layer="1">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="31"/>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="29"/>
+<smd name="+" x="2.022" y="2.032" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-1.016" y="2.921" size="0.381" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-3.302" size="0.381" layer="27">&gt;VALUE</text>
+<polygon width="0.02" layer="51">
+<vertex x="-1.1" y="-2.4"/>
+<vertex x="2.4" y="-2.4"/>
+<vertex x="2.4" y="-1.01"/>
+<vertex x="-1.1" y="-1.01"/>
+</polygon>
+<polygon width="0.02" layer="51">
+<vertex x="0.8" y="2.4"/>
+<vertex x="2.4" y="2.4"/>
+<vertex x="2.4" y="0.8"/>
+</polygon>
+</package>
+<package name="BATTCON_20MM_4LEGS_OVERPASTE_INNER">
+<description>&lt;h3&gt;20mm Coin Cell Battery (CR2032) Holder - SMD (Dual Pad) (Overpaste on inner side of pads)&lt;/h3&gt;
+&lt;p&gt;This holder fits 20mm Lithium coin cell batteries and holds the battery in place with friction. The metal housing connects to the positive (+) side of the battery and the PCB pad underneath is connected to the negative (-) side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Prototyping/BAT-BLH-001.jpg"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;BATTERY&lt;/li&gt;&lt;/ul&gt;</description>
+<circle x="0" y="0" radius="10" width="0.2032" layer="51"/>
+<wire x1="-7.5" y1="7.35" x2="7.5" y2="7.35" width="0.2032" layer="21"/>
+<wire x1="-7.5" y1="7.35" x2="-10.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="7.5" y1="7.35" x2="10.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="10.55" y1="2.55" x2="10.55" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="10.55" y1="-0.55" x2="10.55" y2="-2.55" width="0.2032" layer="51"/>
+<wire x1="-10.55" y1="2.55" x2="-10.55" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="-10.55" y1="-0.55" x2="-10.55" y2="-2.55" width="0.2032" layer="51"/>
+<wire x1="10.55" y1="2.55" x2="11.45" y2="2.55" width="0.2032" layer="51"/>
+<wire x1="11.45" y1="2.55" x2="11.45" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="11.45" y1="0.55" x2="10.55" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="10.55" y1="-0.55" x2="11.45" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="11.45" y1="-0.55" x2="11.45" y2="-2.55" width="0.2032" layer="51"/>
+<wire x1="11.45" y1="-2.55" x2="10.55" y2="-2.55" width="0.2032" layer="51"/>
+<wire x1="-10.55" y1="-2.55" x2="-11.45" y2="-2.55" width="0.2032" layer="51"/>
+<wire x1="-11.45" y1="-2.55" x2="-11.45" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="-11.45" y1="-0.55" x2="-10.55" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="-10.55" y1="0.55" x2="-11.45" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="-11.45" y1="0.55" x2="-11.45" y2="2.55" width="0.2032" layer="51"/>
+<wire x1="-11.45" y1="2.55" x2="-10.55" y2="2.55" width="0.2032" layer="51"/>
+<wire x1="10.55" y1="-4.55" x2="5.55" y2="-7.95" width="0.2032" layer="21"/>
+<wire x1="5.55" y1="-7.95" x2="-5.55" y2="-7.95" width="0.2032" layer="21" curve="62.415735"/>
+<wire x1="-5.55" y1="-7.95" x2="-10.55" y2="-4.55" width="0.2032" layer="21"/>
+<wire x1="10.55" y1="4.65" x2="10.55" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-10.55" y1="3.2" x2="-10.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-10.55" y1="-4.55" x2="-10.55" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="10.55" y1="-4.55" x2="10.55" y2="-3.2" width="0.2032" layer="21"/>
+<rectangle x1="-2" y1="-2" x2="2" y2="2" layer="31"/>
+<rectangle x1="-12.192" y1="-3.048" x2="-8.128" y2="3.048" layer="31"/>
+<rectangle x1="8.128" y1="-3.048" x2="12.192" y2="3.048" layer="31"/>
+<smd name="1" x="-11" y="1.55" dx="2.54" dy="1.778" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="0" y="0" dx="13" dy="8" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="11" y="1.55" dx="2.54" dy="1.778" layer="1" rot="R90" cream="no"/>
+<smd name="P$1" x="-11" y="-1.55" dx="2.54" dy="1.778" layer="1" rot="R90" cream="no"/>
+<smd name="P$2" x="11" y="-1.55" dx="2.54" dy="1.778" layer="1" rot="R90" cream="no"/>
+<text x="0" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="7.112" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BATTERY">
@@ -1064,6 +1158,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="-20MM_SMD_4LEGS_OVERPASTE_INNER" package="BATTCON_20MM_4LEGS_OVERPASTE_INNER">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LIPO-OUTLINE" prefix="BT">
@@ -1100,6 +1203,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="BATT-13274"/>
 <attribute name="SF_SKU" value="PRT-13853"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ML414H_IV01E_BATTERY" prefix="BT">
+<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+
+Battery Characteristics: 
+&lt;ul&gt;
+&lt;li&gt;3.1V max voltage&lt;/li&gt;
+&lt;li&gt;Voff is 2V&lt;/li&gt;
+&lt;li&gt;1mAH&lt;/li&gt;
+&lt;li&gt;3k series resistor with battery&lt;/li&gt;
+&lt;li&gt;72 hour charge time from 2.0-3.1V&lt;/li&gt;
+&lt;li&gt;2.3-2.8V initial charge&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ML414H_IV01E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="BATT-14267" constant="no"/>
 </technology>
 </technologies>
 </device>
