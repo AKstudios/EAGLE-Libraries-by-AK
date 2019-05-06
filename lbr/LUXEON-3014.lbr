@@ -121,6 +121,10 @@ github.com/akstudios</description>
 </gates>
 <devices>
 <device name="" package="LUXEON-3014">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
