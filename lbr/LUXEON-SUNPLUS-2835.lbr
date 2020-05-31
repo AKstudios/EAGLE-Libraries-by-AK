@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -74,27 +74,27 @@
 <library>
 <packages>
 <package name="LUXEON-SUNPLUS-2835">
-<wire x1="0" y1="0" x2="0" y2="2.3" width="0.127" layer="21"/>
-<wire x1="0" y1="2.3" x2="0" y2="2.8" width="0.127" layer="21"/>
-<wire x1="0" y1="2.8" x2="0.5" y2="2.8" width="0.127" layer="21"/>
-<wire x1="0.5" y1="2.8" x2="3.5" y2="2.8" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.8" x2="3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="+" x="1.015" y="1.4" dx="2.03" dy="1.9" layer="1" rot="R180"/>
-<smd name="-" x="3.015" y="1.4" dx="0.97" dy="1.9" layer="1" rot="R180"/>
-<wire x1="2.14" y1="1.7" x2="2.14" y2="1.4" width="0.05" layer="21"/>
-<wire x1="2.14" y1="1.4" x2="2.14" y2="1.1" width="0.05" layer="21"/>
-<wire x1="2.14" y1="1.1" x2="2.44" y2="1.4" width="0.05" layer="21"/>
-<wire x1="2.44" y1="1.4" x2="2.14" y2="1.7" width="0.05" layer="21"/>
-<wire x1="2.14" y1="1.4" x2="2.05" y2="1.4" width="0.05" layer="21"/>
-<wire x1="2.44" y1="1.4" x2="2.51" y2="1.4" width="0.05" layer="21"/>
-<wire x1="2.44" y1="1.7" x2="2.44" y2="1.1" width="0.05" layer="21"/>
-<wire x1="0" y1="3.1" x2="0.3" y2="3.1" width="0.05" layer="21"/>
-<wire x1="0.15" y1="3.25" x2="0.15" y2="2.95" width="0.05" layer="21"/>
-<wire x1="3.2" y1="3.1" x2="3.5" y2="3.1" width="0.05" layer="21"/>
-<wire x1="0" y1="2.3" x2="0.5" y2="2.8" width="0.127" layer="21"/>
-<text x="0" y="3.6" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.05" y="-1.45" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="0.9" x2="-1.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.4" x2="-1.25" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="1.4" x2="1.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.127" layer="21"/>
+<smd name="+" x="-0.735" y="0" dx="2.03" dy="1.9" layer="1" rot="R180"/>
+<smd name="-" x="1.265" y="0" dx="0.97" dy="1.9" layer="1" rot="R180"/>
+<wire x1="0.39" y1="0.3" x2="0.39" y2="0" width="0.05" layer="21"/>
+<wire x1="0.39" y1="0" x2="0.39" y2="-0.3" width="0.05" layer="21"/>
+<wire x1="0.39" y1="-0.3" x2="0.69" y2="0" width="0.05" layer="21"/>
+<wire x1="0.69" y1="0" x2="0.39" y2="0.3" width="0.05" layer="21"/>
+<wire x1="0.39" y1="0" x2="0.3" y2="0" width="0.05" layer="21"/>
+<wire x1="0.69" y1="0" x2="0.76" y2="0" width="0.05" layer="21"/>
+<wire x1="0.69" y1="0.3" x2="0.69" y2="-0.3" width="0.05" layer="21"/>
+<wire x1="-1.75" y1="1.7" x2="-1.45" y2="1.7" width="0.05" layer="21"/>
+<wire x1="-1.6" y1="1.85" x2="-1.6" y2="1.55" width="0.05" layer="21"/>
+<wire x1="1.45" y1="1.7" x2="1.75" y2="1.7" width="0.05" layer="21"/>
+<wire x1="-1.75" y1="0.9" x2="-1.25" y2="1.4" width="0.127" layer="21"/>
+<text x="-1.75" y="2.2" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.8" y="-2.85" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -116,7 +116,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LUXEON-SUNPLUS-2835">
+<deviceset name="LUXEON-SUNPLUS-2835" prefix="LED">
 <description>Designed by AKstudios&lt;br&gt;
 github.com/akstudios</description>
 <gates>

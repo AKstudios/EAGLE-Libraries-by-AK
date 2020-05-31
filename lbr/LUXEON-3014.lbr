@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -74,28 +74,28 @@
 <library>
 <packages>
 <package name="LUXEON-3014">
-<wire x1="0" y1="0" x2="2.6" y2="0" width="0.05" layer="21"/>
-<wire x1="2.6" y1="0" x2="2.9" y2="0" width="0.05" layer="21"/>
-<wire x1="2.9" y1="1.4" x2="0" y2="1.4" width="0.05" layer="21"/>
-<smd name="-" x="2.145" y="0.7" dx="1.6" dy="0.85" layer="1"/>
-<smd name="+" x="0.345" y="0.7" dx="0.8" dy="0.85" layer="1"/>
-<wire x1="0.9" y1="1" x2="0.9" y2="0.7" width="0.05" layer="21"/>
-<wire x1="0.9" y1="0.7" x2="0.9" y2="0.4" width="0.05" layer="21"/>
-<wire x1="0.9" y1="0.4" x2="1.2" y2="0.7" width="0.05" layer="21"/>
-<wire x1="1.2" y1="0.7" x2="0.9" y2="1" width="0.05" layer="21"/>
-<wire x1="0.9" y1="0.7" x2="0.77" y2="0.7" width="0.05" layer="21"/>
-<wire x1="1.2" y1="0.7" x2="1.32" y2="0.7" width="0.05" layer="21"/>
-<wire x1="1.2" y1="1" x2="1.2" y2="0.4" width="0.05" layer="21"/>
-<text x="0.1" y="1.85" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-0.7" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="0" y1="1.4" x2="0" y2="1.15" width="0.05" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.25" width="0.05" layer="21"/>
-<wire x1="2.9" y1="1.4" x2="2.9" y2="1.15" width="0.05" layer="21"/>
-<wire x1="2.9" y1="0" x2="2.9" y2="0.25" width="0.05" layer="21"/>
-<wire x1="2.85" y1="0.25" x2="2.6" y2="0" width="0.05" layer="21"/>
-<wire x1="0" y1="1.65" x2="0.2" y2="1.65" width="0.05" layer="21"/>
-<wire x1="0.1" y1="1.75" x2="0.1" y2="1.55" width="0.05" layer="21"/>
-<wire x1="2.7" y1="1.6" x2="2.9" y2="1.6" width="0.05" layer="21"/>
+<wire x1="-1.45" y1="-0.7" x2="1.15" y2="-0.7" width="0.05" layer="21"/>
+<wire x1="1.15" y1="-0.7" x2="1.45" y2="-0.7" width="0.05" layer="21"/>
+<wire x1="1.45" y1="0.7" x2="-1.45" y2="0.7" width="0.05" layer="21"/>
+<smd name="-" x="0.695" y="0" dx="1.65" dy="0.9" layer="1"/>
+<smd name="+" x="-1.105" y="0" dx="0.9" dy="0.9" layer="1"/>
+<wire x1="-0.55" y1="0.3" x2="-0.55" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.55" y1="0" x2="-0.55" y2="-0.3" width="0.05" layer="21"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.25" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0" x2="-0.55" y2="0.3" width="0.05" layer="21"/>
+<wire x1="-0.55" y1="0" x2="-0.68" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0" x2="-0.13" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0.3" x2="-0.25" y2="-0.3" width="0.05" layer="21"/>
+<text x="-1.35" y="1.15" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.45" y="-1.4" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.45" y1="0.7" x2="-1.45" y2="0.45" width="0.05" layer="21"/>
+<wire x1="-1.45" y1="-0.7" x2="-1.45" y2="-0.45" width="0.05" layer="21"/>
+<wire x1="1.45" y1="0.7" x2="1.45" y2="0.45" width="0.05" layer="21"/>
+<wire x1="1.45" y1="-0.7" x2="1.45" y2="-0.45" width="0.05" layer="21"/>
+<wire x1="1.4" y1="-0.45" x2="1.15" y2="-0.7" width="0.05" layer="21"/>
+<wire x1="-1.45" y1="0.95" x2="-1.25" y2="0.95" width="0.05" layer="21"/>
+<wire x1="-1.35" y1="1.05" x2="-1.35" y2="0.85" width="0.05" layer="21"/>
+<wire x1="1.25" y1="0.9" x2="1.45" y2="0.9" width="0.05" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -113,7 +113,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LUXEON-3014-WHITE">
+<deviceset name="LUXEON-3014-WHITE" prefix="LED">
 <description>Designed by AKstudios&lt;br&gt;
 github.com/akstudios</description>
 <gates>
