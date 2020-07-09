@@ -74,20 +74,18 @@
 <library>
 <packages>
 <package name="7513D2-L">
-<wire x1="6.86" y1="1.8" x2="-8.61" y2="1.8" width="0" layer="21"/>
-<wire x1="6.86" y1="-1.8" x2="-8.61" y2="-1.8" width="0" layer="21"/>
+<wire x1="5.86" y1="1.8" x2="-8.61" y2="1.8" width="0" layer="21"/>
+<wire x1="5.86" y1="-1.8" x2="-8.61" y2="-1.8" width="0" layer="21"/>
 <wire x1="-8.61" y1="-1.8" x2="-8.61" y2="1.8" width="0" layer="21"/>
-<wire x1="6.86" y1="1.8" x2="6.86" y2="-1.8" width="0" layer="21"/>
-<wire x1="0.965" y1="0" x2="-0.965" y2="0" width="0" layer="20" curve="-180"/>
-<wire x1="-0.965" y1="0" x2="0.965" y2="0" width="0" layer="20" curve="-180"/>
-<wire x1="2.005" y1="0" x2="3.935" y2="0" width="0" layer="20" curve="-180"/>
-<wire x1="3.935" y1="0" x2="2.005" y2="0" width="0" layer="20" curve="-180"/>
-<wire x1="8.615" y1="1.395" x2="5.105" y2="1.395" width="0" layer="21"/>
-<wire x1="5.105" y1="-1.395" x2="5.105" y2="1.395" width="0" layer="21"/>
-<wire x1="8.615" y1="-1.395" x2="5.105" y2="-1.395" width="0" layer="21"/>
-<wire x1="8.615" y1="-1.395" x2="8.615" y2="1.395" width="0" layer="21"/>
+<wire x1="5.86" y1="1.8" x2="5.86" y2="-1.8" width="0" layer="21"/>
+<wire x1="7.615" y1="1.395" x2="4.105" y2="1.395" width="0" layer="21"/>
+<wire x1="4.105" y1="-1.395" x2="4.105" y2="1.395" width="0" layer="21"/>
+<wire x1="7.615" y1="-1.395" x2="4.105" y2="-1.395" width="0" layer="21"/>
+<wire x1="7.615" y1="-1.395" x2="7.615" y2="1.395" width="0" layer="21"/>
 <text x="-8.6" y="2" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-8.6" y="-2.5" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.95" width="0.001" layer="20"/>
+<circle x="2.97" y="0" radius="0.95" width="0.001" layer="20"/>
 </package>
 </packages>
 <symbols>
