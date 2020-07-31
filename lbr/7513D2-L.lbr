@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -84,8 +84,8 @@
 <wire x1="7.615" y1="-1.395" x2="7.615" y2="1.395" width="0" layer="21"/>
 <text x="-8.6" y="2" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-8.6" y="-2.5" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
-<circle x="0" y="0" radius="0.95" width="0.001" layer="20"/>
-<circle x="2.97" y="0" radius="0.95" width="0.001" layer="20"/>
+<circle x="0" y="0" radius="0.96" width="0.001" layer="20"/>
+<circle x="2.97" y="0" radius="0.96" width="0.001" layer="20"/>
 </package>
 </packages>
 <symbols>
