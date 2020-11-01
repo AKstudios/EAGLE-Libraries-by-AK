@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -131,6 +131,26 @@
 <text x="0" y="7.12" size="0.6096" layer="21" font="vector">&gt;NAME</text>
 <text x="0" y="-0.97" size="0.6096" layer="21" font="vector">&gt;VALUE</text>
 </package>
+<package name="HEADER_1.27MM_2X6">
+<wire x1="0" y1="0" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="3" y2="8.08" width="0.127" layer="21"/>
+<wire x1="3" y1="8.08" x2="0" y2="8.08" width="0.127" layer="21"/>
+<wire x1="0" y1="8.08" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="1" x="0.865" y="0.865" drill="0.55" diameter="0.95"/>
+<pad name="3" x="0.865" y="2.135" drill="0.55" diameter="0.95"/>
+<pad name="5" x="0.865" y="3.405" drill="0.55" diameter="0.95"/>
+<pad name="7" x="0.865" y="4.675" drill="0.55" diameter="0.95"/>
+<pad name="9" x="0.865" y="5.945" drill="0.55" diameter="0.95"/>
+<pad name="2" x="2.135" y="0.865" drill="0.55" diameter="0.95"/>
+<pad name="4" x="2.135" y="2.135" drill="0.55" diameter="0.95"/>
+<pad name="6" x="2.135" y="3.405" drill="0.55" diameter="0.95"/>
+<pad name="8" x="2.135" y="4.675" drill="0.55" diameter="0.95"/>
+<pad name="10" x="2.135" y="5.945" drill="0.55" diameter="0.95"/>
+<text x="0.1" y="8.32" size="0.6096" layer="21" font="vector">&gt;NAME</text>
+<text x="0" y="-0.87" size="0.6096" layer="21" font="vector">&gt;VALUE</text>
+<pad name="11" x="0.865" y="7.215" drill="0.55" diameter="0.95"/>
+<pad name="12" x="2.135" y="7.215" drill="0.55" diameter="0.95"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PMS7003">
@@ -170,24 +190,24 @@
 <text x="-5.334" y="-9.652" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="1.27MM_2X6">
-<wire x1="-10.16" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="GND" x="-15.24" y="7.62" length="middle"/>
-<pin name="VCC" x="-15.24" y="5.08" length="middle"/>
-<pin name="RX" x="-15.24" y="2.54" length="middle"/>
-<pin name="TX" x="-15.24" y="0" length="middle"/>
-<pin name="BOOT" x="-15.24" y="-2.54" length="middle"/>
-<pin name="NC@2" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="NC@3" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="NC@4" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="NC@5" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="READY" x="-15.24" y="-5.08" length="middle"/>
-<text x="-10.414" y="10.922" size="1.27" layer="95">&gt;NAME</text>
-<text x="-10.414" y="-9.652" size="1.27" layer="95">&gt;VALUE</text>
-<pin name="NC@1" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="NC@0" x="12.7" y="7.62" length="middle" rot="R180"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="1" x="-12.7" y="7.62" length="middle"/>
+<pin name="2" x="-12.7" y="5.08" length="middle"/>
+<pin name="3" x="-12.7" y="2.54" length="middle"/>
+<pin name="4" x="-12.7" y="0" length="middle"/>
+<pin name="5" x="-12.7" y="-2.54" length="middle"/>
+<pin name="10" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="9" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="7" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="6" x="-12.7" y="-5.08" length="middle"/>
+<text x="-7.874" y="10.922" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.874" y="-9.652" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="11" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="12" x="12.7" y="7.62" length="middle" rot="R180"/>
 </symbol>
 <symbol name="1.27MM_2X5">
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
@@ -262,18 +282,18 @@ https://github.com/AKstudios</description>
 <devices>
 <device name="" package="RECEPTACLE_1.27MM_2X6">
 <connects>
-<connect gate="G$1" pin="BOOT" pad="P$2"/>
-<connect gate="G$1" pin="GND" pad="P$6"/>
-<connect gate="G$1" pin="NC@0" pad="P$7"/>
-<connect gate="G$1" pin="NC@1" pad="P$8"/>
-<connect gate="G$1" pin="NC@2" pad="P$9"/>
-<connect gate="G$1" pin="NC@3" pad="P$10"/>
-<connect gate="G$1" pin="NC@4" pad="P$11"/>
-<connect gate="G$1" pin="NC@5" pad="P$12"/>
-<connect gate="G$1" pin="READY" pad="P$1"/>
-<connect gate="G$1" pin="RX" pad="P$4"/>
-<connect gate="G$1" pin="TX" pad="P$3"/>
-<connect gate="G$1" pin="VCC" pad="P$5"/>
+<connect gate="G$1" pin="1" pad="P$6"/>
+<connect gate="G$1" pin="10" pad="P$9"/>
+<connect gate="G$1" pin="11" pad="P$8"/>
+<connect gate="G$1" pin="12" pad="P$7"/>
+<connect gate="G$1" pin="2" pad="P$5"/>
+<connect gate="G$1" pin="3" pad="P$4"/>
+<connect gate="G$1" pin="4" pad="P$3"/>
+<connect gate="G$1" pin="5" pad="P$2"/>
+<connect gate="G$1" pin="6" pad="P$1"/>
+<connect gate="G$1" pin="7" pad="P$12"/>
+<connect gate="G$1" pin="8" pad="P$11"/>
+<connect gate="G$1" pin="9" pad="P$10"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -290,6 +310,32 @@ https://github.com/AKstudios</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20021311-00012T4LF">
+<gates>
+<gate name="G$1" symbol="1.27MM_2X6" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="HEADER_1.27MM_2X6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
