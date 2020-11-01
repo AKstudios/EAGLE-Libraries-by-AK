@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN50P700X700X100-45N">
+<description>&lt;b&gt;VQFN 44M1&lt;/b&gt;&lt;br&gt;
+</description>
+<text x="-2.286" y="4.826" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="-1.905" y="-4.826" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
+<circle x="-4.0524" y="3.3008" radius="0.125" width="0.25" layer="25"/>
+<smd name="1" x="-3.4" y="2.5" dx="1" dy="0.3" layer="1"/>
+<smd name="2" x="-3.4" y="2" dx="1" dy="0.3" layer="1"/>
+<smd name="3" x="-3.4" y="1.5" dx="1" dy="0.3" layer="1"/>
+<smd name="4" x="-3.4" y="1" dx="1" dy="0.3" layer="1"/>
+<smd name="5" x="-3.4" y="0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="6" x="-3.4" y="0" dx="1" dy="0.3" layer="1"/>
+<smd name="7" x="-3.4" y="-0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="8" x="-3.4" y="-1" dx="1" dy="0.3" layer="1"/>
+<smd name="9" x="-3.4" y="-1.5" dx="1" dy="0.3" layer="1"/>
+<smd name="10" x="-3.4" y="-2" dx="1" dy="0.3" layer="1"/>
+<smd name="11" x="-3.4" y="-2.5" dx="1" dy="0.3" layer="1"/>
+<smd name="12" x="-2.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="-2" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-1.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-1" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-0.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="0" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="0.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="1" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="1.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="2" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="2.5" y="-3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="3.4" y="-2.5" dx="1" dy="0.3" layer="1"/>
+<smd name="24" x="3.4" y="-2" dx="1" dy="0.3" layer="1"/>
+<smd name="25" x="3.4" y="-1.5" dx="1" dy="0.3" layer="1"/>
+<smd name="26" x="3.4" y="-1" dx="1" dy="0.3" layer="1"/>
+<smd name="27" x="3.4" y="-0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="28" x="3.4" y="0" dx="1" dy="0.3" layer="1"/>
+<smd name="29" x="3.4" y="0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="30" x="3.4" y="1" dx="1" dy="0.3" layer="1"/>
+<smd name="31" x="3.4" y="1.5" dx="1" dy="0.3" layer="1"/>
+<smd name="32" x="3.4" y="2" dx="1" dy="0.3" layer="1"/>
+<smd name="33" x="3.4" y="2.5" dx="1" dy="0.3" layer="1"/>
+<smd name="34" x="2.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="35" x="2" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="36" x="1.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="37" x="1" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="0.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="0" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="-0.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="-1" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="42" x="-1.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="-2" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="-2.5" y="3.4" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="0" y="0" dx="5.4" dy="5.4" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATMEGA1284P-MU">
+<wire x1="5.08" y1="35.56" x2="60.96" y2="35.56" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-33.02" x2="60.96" y2="35.56" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-33.02" x2="5.08" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="-33.02" width="0.254" layer="94"/>
+<text x="6.35" y="38.1" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="6.35" y="-35.56" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="PB5_[PCINT13/ICP3/MOSI]" x="66.04" y="20.32" length="middle" direction="in" rot="R180"/>
+<pin name="PB6_[PCINT14/OC3A/MISO]" x="66.04" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="PB7_[PCINT15/OC3B/SCK]" x="66.04" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="!RESET" x="0" y="33.02" length="middle"/>
+<pin name="VCC" x="0" y="25.4" length="middle" direction="pwr"/>
+<pin name="GND" x="0" y="-20.32" length="middle" direction="pwr"/>
+<pin name="XTAL2" x="0" y="7.62" length="middle"/>
+<pin name="XTAL1" x="0" y="10.16" length="middle"/>
+<pin name="[PCINT24/RXD0/T3]_PD0" x="66.04" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT25/TXD0]_PD1" x="66.04" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT26/RXD1/INT0]_PD2" x="66.04" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT27/TXD1/INT1]_PD3" x="66.04" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT28/XCK1/OC1B]_PD4" x="66.04" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT29/OC1A]_PD5" x="66.04" y="-25.4" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT30/OC2B/ICP]_PD6" x="66.04" y="-27.94" length="middle" direction="in" rot="R180"/>
+<pin name="[PCINT31/OC2A]_PD7" x="66.04" y="-30.48" length="middle" direction="in" rot="R180"/>
+<pin name="VCC_1" x="0" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND_1" x="0" y="-22.86" length="middle" direction="pwr"/>
+<pin name="PC0_[PCINT16/SCL]" x="66.04" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="PC1_[PCINT17/SDA]" x="66.04" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="PC2_[PCINT18/TCK]" x="66.04" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="PC3_[PCINT19/TMS]" x="66.04" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="PA4_[ADC4/PCINT4]" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="PA5_[ADC5/PCINT5]" x="0" y="-10.16" length="middle" direction="in"/>
+<pin name="PA6_[ADC6/PCINT6]" x="0" y="-12.7" length="middle" direction="in"/>
+<pin name="PA7_[ADC7/PCINT7]" x="0" y="-15.24" length="middle" direction="in"/>
+<pin name="AREF" x="0" y="15.24" length="middle" direction="in"/>
+<pin name="GND_2" x="0" y="-25.4" length="middle" direction="pwr"/>
+<pin name="AVCC" x="0" y="27.94" length="middle" direction="pwr"/>
+<pin name="PC7_[TOSC2/PCINT23]" x="66.04" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="PC6_[TOSC1/PCINT22]" x="66.04" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="PC5_[TDI/PCINT21]" x="66.04" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="PC4_[TDO/PCINT20]" x="66.04" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="THERMAL_PAD" x="0" y="-30.48" length="middle"/>
+<pin name="PB4_[!SS!/OC0B/PCINT12]" x="66.04" y="22.86" length="middle" direction="in" rot="R180"/>
+<pin name="PB3_[AIN1/OC0A/PCINT11]" x="66.04" y="25.4" length="middle" direction="in" rot="R180"/>
+<pin name="PB2_[AIN0/INT2/PCINT10]" x="66.04" y="27.94" length="middle" direction="in" rot="R180"/>
+<pin name="PB1_[T1/CLKO/PCINT9]" x="66.04" y="30.48" length="middle" direction="out" rot="R180"/>
+<pin name="PB0_[XCK0/T0/PCINT8]" x="66.04" y="33.02" length="middle" direction="in" rot="R180"/>
+<pin name="GND_3" x="0" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VCC_2" x="0" y="20.32" length="middle" direction="pwr"/>
+<pin name="PA0_[ADC0/PCINT0]" x="0" y="2.54" length="middle" direction="in"/>
+<pin name="PA1_[ADC1/PCINT1]" x="0" y="0" length="middle" direction="in"/>
+<pin name="PA2_[ADC2/PCINT2]" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="PA3_[ADC3/PCINT3]" x="0" y="-5.08" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA1284P-MU" prefix="IC">
+<description>&lt;b&gt;ATMEGA1284P-MU, 8 bit AVR Microcontroller 20MHz 4, 128kb Flash, 16kb RAM, I2C SPI 44-Pin VQFN&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ATMEGA1284P-MU.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/ATMEGA1284P-MU/Microchip/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA1284P-MU" x="-33.02" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="QFN50P700X700X100-45N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="AREF" pad="29"/>
+<connect gate="G$1" pin="AVCC" pad="27"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND_1" pad="18"/>
+<connect gate="G$1" pin="GND_2" pad="28"/>
+<connect gate="G$1" pin="GND_3" pad="39"/>
+<connect gate="G$1" pin="PA0_[ADC0/PCINT0]" pad="37"/>
+<connect gate="G$1" pin="PA1_[ADC1/PCINT1]" pad="36"/>
+<connect gate="G$1" pin="PA2_[ADC2/PCINT2]" pad="35"/>
+<connect gate="G$1" pin="PA3_[ADC3/PCINT3]" pad="34"/>
+<connect gate="G$1" pin="PA4_[ADC4/PCINT4]" pad="33"/>
+<connect gate="G$1" pin="PA5_[ADC5/PCINT5]" pad="32"/>
+<connect gate="G$1" pin="PA6_[ADC6/PCINT6]" pad="31"/>
+<connect gate="G$1" pin="PA7_[ADC7/PCINT7]" pad="30"/>
+<connect gate="G$1" pin="PB0_[XCK0/T0/PCINT8]" pad="40"/>
+<connect gate="G$1" pin="PB1_[T1/CLKO/PCINT9]" pad="41"/>
+<connect gate="G$1" pin="PB2_[AIN0/INT2/PCINT10]" pad="42"/>
+<connect gate="G$1" pin="PB3_[AIN1/OC0A/PCINT11]" pad="43"/>
+<connect gate="G$1" pin="PB4_[!SS!/OC0B/PCINT12]" pad="44"/>
+<connect gate="G$1" pin="PB5_[PCINT13/ICP3/MOSI]" pad="1"/>
+<connect gate="G$1" pin="PB6_[PCINT14/OC3A/MISO]" pad="2"/>
+<connect gate="G$1" pin="PB7_[PCINT15/OC3B/SCK]" pad="3"/>
+<connect gate="G$1" pin="PC0_[PCINT16/SCL]" pad="19"/>
+<connect gate="G$1" pin="PC1_[PCINT17/SDA]" pad="20"/>
+<connect gate="G$1" pin="PC2_[PCINT18/TCK]" pad="21"/>
+<connect gate="G$1" pin="PC3_[PCINT19/TMS]" pad="22"/>
+<connect gate="G$1" pin="PC4_[TDO/PCINT20]" pad="23"/>
+<connect gate="G$1" pin="PC5_[TDI/PCINT21]" pad="24"/>
+<connect gate="G$1" pin="PC6_[TOSC1/PCINT22]" pad="25"/>
+<connect gate="G$1" pin="PC7_[TOSC2/PCINT23]" pad="26"/>
+<connect gate="G$1" pin="THERMAL_PAD" pad="45"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="VCC_1" pad="17"/>
+<connect gate="G$1" pin="VCC_2" pad="38"/>
+<connect gate="G$1" pin="XTAL1" pad="8"/>
+<connect gate="G$1" pin="XTAL2" pad="7"/>
+<connect gate="G$1" pin="[PCINT24/RXD0/T3]_PD0" pad="9"/>
+<connect gate="G$1" pin="[PCINT25/TXD0]_PD1" pad="10"/>
+<connect gate="G$1" pin="[PCINT26/RXD1/INT0]_PD2" pad="11"/>
+<connect gate="G$1" pin="[PCINT27/TXD1/INT1]_PD3" pad="12"/>
+<connect gate="G$1" pin="[PCINT28/XCK1/OC1B]_PD4" pad="13"/>
+<connect gate="G$1" pin="[PCINT29/OC1A]_PD5" pad="14"/>
+<connect gate="G$1" pin="[PCINT30/OC2B/ICP]_PD6" pad="15"/>
+<connect gate="G$1" pin="[PCINT31/OC2A]_PD7" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Warning"/>
+<attribute name="DESCRIPTION" value=" AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 128KB (64K x 16) FLASH 44-VQFN (7x7) "/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MP" value="ATMEGA1284P-MU"/>
+<attribute name="PACKAGE" value="VQFN-44 Microchip"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ATMEGA1284P-MU/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
