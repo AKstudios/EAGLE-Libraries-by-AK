@@ -151,6 +151,37 @@
 <pad name="11" x="0.865" y="7.215" drill="0.55" diameter="0.95"/>
 <pad name="12" x="2.135" y="7.215" drill="0.55" diameter="0.95"/>
 </package>
+<package name="SMD_HEADER_1.27MM_2X5">
+<smd name="P$1" x="7.305" y="0.7" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$2" x="7.305" y="4.6" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$3" x="6.035" y="0.7" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$4" x="6.035" y="4.6" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$5" x="4.765" y="0.7" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$6" x="4.765" y="4.6" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$7" x="3.495" y="0.7" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$8" x="3.495" y="4.6" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$9" x="2.225" y="0.7" dx="0.76" dy="2.4" layer="1"/>
+<smd name="P$10" x="2.225" y="4.6" dx="0.76" dy="2.4" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.8" x2="0" y2="3.5" width="0.1524" layer="21"/>
+<wire x1="0" y1="3.5" x2="0" y2="5.3" width="0.1524" layer="21"/>
+<wire x1="0" y1="5.3" x2="9.53" y2="5.3" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="9.53" y2="0" width="0.1524" layer="21"/>
+<wire x1="9.53" y1="0" x2="9.53" y2="5.3" width="0.1524" layer="21"/>
+<wire x1="8.2" y1="4.3" x2="1.3" y2="4.3" width="0.0762" layer="21"/>
+<wire x1="8.2" y1="1" x2="1.3" y2="1" width="0.0762" layer="21"/>
+<wire x1="1.3" y1="3.5" x2="0" y2="3.5" width="0.0762" layer="21"/>
+<wire x1="1.3" y1="1.8" x2="0" y2="1.8" width="0.0762" layer="21"/>
+<wire x1="1.3" y1="3.5" x2="1.3" y2="4.3" width="0.0762" layer="21"/>
+<wire x1="1.3" y1="1.8" x2="1.3" y2="1" width="0.0762" layer="21"/>
+<wire x1="9.5" y1="3.5" x2="8.2" y2="3.5" width="0.0762" layer="21"/>
+<wire x1="9.5" y1="1.8" x2="8.2" y2="1.8" width="0.0762" layer="21"/>
+<wire x1="8.2" y1="1" x2="8.2" y2="1.8" width="0.0762" layer="21"/>
+<wire x1="8.2" y1="3.5" x2="8.2" y2="4.3" width="0.0762" layer="21"/>
+<text x="0" y="6.4" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="0.1" y="-2.1" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<circle x="8.3" y="-0.8" radius="0.25" width="0.0762" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PMS7003">
@@ -344,6 +375,38 @@ https://github.com/AKstudios</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20021221-00010C4LF">
+<description>2x5 1.27mm 10-POS SMD header
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MPN: &lt;/b&gt;20021221-00010C4LF
+
+&lt;br&gt;&lt;br&gt;
+Designed by Akram Ali
+&lt;br&gt;
+&lt;a href="https://github.com/AKstudios"&gt;https://github.com/AKstudios&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1.27MM_2X5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD_HEADER_1.27MM_2X5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
