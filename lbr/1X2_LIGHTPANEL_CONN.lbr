@@ -95,7 +95,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1X2_LIGHTPANEL_CONN">
+<deviceset name="1X2_LIGHTPANEL_CONN" prefix="J">
 <gates>
 <gate name="G$1" symbol="1X2_LIGHTPANEL_CONN" x="0" y="0"/>
 </gates>
