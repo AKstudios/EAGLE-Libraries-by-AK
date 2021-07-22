@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -98,10 +98,10 @@
 <wire x1="-2.7" y1="-12.6" x2="-2.7" y2="-18.4" width="0.1016" layer="51"/>
 <wire x1="10.3" y1="-12.6" x2="10.3" y2="-18.4" width="0.1016" layer="51"/>
 <wire x1="-2.7" y1="-18.4" x2="10.3" y2="-18.4" width="0.1016" layer="51"/>
-<pad name="P$1" x="1.31" y="-4.3" drill="0.9"/>
-<pad name="P$2" x="6.39" y="-4.3" drill="0.9"/>
-<pad name="P$3" x="3.85" y="-4.3" drill="0.9"/>
-<pad name="P$4" x="3.85" y="-1.76" drill="0.9"/>
+<pad name="P$1" x="1.31" y="-4.3" drill="1"/>
+<pad name="P$2" x="6.39" y="-4.3" drill="1"/>
+<pad name="P$3" x="3.85" y="-4.3" drill="1"/>
+<pad name="P$4" x="3.85" y="-1.76" drill="1"/>
 <text x="0" y="0.3" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="8.8" y="-9" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 <hole x="3.85" y="-7.4" drill="1.2"/>
