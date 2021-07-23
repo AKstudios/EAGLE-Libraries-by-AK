@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,49 +73,35 @@
 </layers>
 <library>
 <packages>
-<package name="LPV3-XXXXXP">
-<wire x1="0" y1="0" x2="0" y2="5" width="0.1524" layer="21"/>
-<wire x1="0" y1="5" x2="2.5" y2="5" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="5" x2="9.9" y2="5" width="0.1524" layer="21"/>
-<wire x1="9.9" y1="5" x2="9.9" y2="0" width="0.1524" layer="21"/>
-<wire x1="9.9" y1="0" x2="7.4" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="5" x2="2.5" y2="4" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="4" x2="2.5" y2="1" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="1" x2="2.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="5" x2="7.4" y2="4" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="4" x2="7.4" y2="1" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="1" x2="7.4" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="1" x2="7.4" y2="1" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="4" x2="7.4" y2="4" width="0.1524" layer="21"/>
-<text x="0" y="5.5" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-1.5" size="1.016" layer="27" font="vector">&gt;VALUE</text>
-<hole x="1.25" y="2.5" drill="2.58"/>
-<hole x="8.65" y="2.5" drill="2.58"/>
-<circle x="4.95" y="2.5" radius="1.45" width="0.05" layer="51"/>
+<package name="515-1192-00550F">
+<circle x="-3.57" y="0" radius="0.8" width="0.001" layer="20"/>
+<circle x="3.57" y="0" radius="0.8" width="0.001" layer="20"/>
+<wire x1="-2.6" y1="-1.5" x2="-2.6" y2="1.5" width="0.01" layer="21"/>
+<wire x1="2.6" y1="-1.5" x2="2.6" y2="1.5" width="0.01" layer="21"/>
+<wire x1="-2.6" y1="-1.5" x2="2.6" y2="-1.5" width="0.01" layer="21"/>
+<wire x1="2.6" y1="1.5" x2="-2.6" y2="1.5" width="0.01" layer="21"/>
+<text x="-2.6" y="1.7" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.6" y="-2.3" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.5" width="0.00126875" layer="51"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LIGHTPIPE_CIRCULAR">
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<circle x="-4.572" y="1.27" radius="1.436840625" width="0.1524" layer="94"/>
-<circle x="4.572" y="1.27" radius="1.436840625" width="0.1524" layer="94"/>
-<text x="-2.54" y="3.302" size="1.778" layer="94">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="94">&gt;VALUE</text>
+<symbol name="515-1192-00550F">
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<circle x="-7.62" y="0" radius="2.54" width="0.1524" layer="94"/>
+<circle x="7.62" y="0" radius="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LPV3-XXXXXP" prefix="LP">
-<description>Designed by AKstudios&lt;br&gt;
-github.com/akstudios</description>
+<deviceset name="515-1192-00550F">
 <gates>
-<gate name="G$1" symbol="LIGHTPIPE_CIRCULAR" x="0" y="0"/>
+<gate name="G$1" symbol="515-1192-00550F" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LPV3-XXXXXP">
+<device name="" package="515-1192-00550F">
 <technologies>
 <technology name=""/>
 </technologies>
