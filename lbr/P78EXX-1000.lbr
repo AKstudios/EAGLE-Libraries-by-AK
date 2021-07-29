@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -84,6 +84,23 @@
 <text x="0" y="8.3" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.3" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="VOLTAGE_REG_CUI_1A_2A">
+<pad name="OUT" x="-2.54" y="2.3" drill="1.05" diameter="1.9304"/>
+<pad name="GND" x="0" y="2.3" drill="1.05" diameter="1.9304"/>
+<pad name="IN" x="2.54" y="2.3" drill="1.05" diameter="1.9304" shape="square"/>
+<wire x1="-5.8" y1="-3.4" x2="-5.8" y2="4.6" width="0.1524" layer="21"/>
+<wire x1="5.8" y1="4.6" x2="5.8" y2="-3.4" width="0.1524" layer="21"/>
+<text x="-5.08" y="8.3" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-1.3" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="3.91" y="6.65" size="0.8128" layer="21">2A</text>
+<wire x1="5.8" y1="-3.4" x2="-5.8" y2="-3.4" width="0.1524" layer="21"/>
+<wire x1="-5.8" y1="4.6" x2="5.8" y2="4.6" width="0.1524" layer="21"/>
+<text x="4.21" y="-3.14" size="0.8128" layer="21">1A</text>
+<wire x1="-5.5" y1="7.7" x2="-5.5" y2="0.3" width="0.1016" layer="21" style="shortdash"/>
+<wire x1="-5.5" y1="0.3" x2="5.5" y2="0.3" width="0.1016" layer="21" style="shortdash"/>
+<wire x1="-5.5" y1="7.7" x2="5.5" y2="7.7" width="0.1016" layer="21" style="shortdash"/>
+<wire x1="5.5" y1="7.7" x2="5.5" y2="0.3" width="0.1016" layer="21" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REG_CUI">
@@ -110,6 +127,56 @@ Designed by AKstudios
 </gates>
 <devices>
 <device name="" package="VOLTAGE_REG_CUI">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="P78XX-2000">
+<description>Non-isolated DC switching Regulator, 1A&lt;br&gt;
+MPN: P78E05-1000, P78E12-1000
+&lt;br&gt;&lt;br&gt;
+Non-isolated DC switching Regulator, 2A&lt;br&gt;
+MPN: P7805-2000-S, P7812-2000-S
+&lt;br&gt;&lt;br&gt;
+Designed by AKstudios
+&lt;a href="github.com/akstudios"&gt;github.com/akstudios&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REG_CUI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VOLTAGE_REG_CUI_1A_2A">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="P78XXX-X000">
+<description>Non-isolated DC switching Regulator, 1A&lt;br&gt;
+MPN: P78E05-1000, P78E12-1000
+&lt;br&gt;&lt;br&gt;
+Non-isolated DC switching Regulator, 2A&lt;br&gt;
+MPN: P7805-2000-S, P7812-2000-S
+&lt;br&gt;&lt;br&gt;
+Designed by AKstudios
+&lt;a href="github.com/akstudios"&gt;github.com/akstudios&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REG_CUI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VOLTAGE_REG_CUI_1A_2A">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="IN" pad="IN"/>
