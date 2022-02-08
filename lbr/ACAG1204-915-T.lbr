@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,86 +73,35 @@
 </layers>
 <library>
 <packages>
-<package name="1X2_LIGHTPANEL_CONN">
-<smd name="P$1" x="0" y="3" dx="8" dy="3" layer="1"/>
-<smd name="P$2" x="0" y="-3" dx="8" dy="3" layer="1"/>
-<wire x1="-4.5" y1="1" x2="4.5" y2="1" width="0.0762" layer="20"/>
-<wire x1="-4.5" y1="-1" x2="4.5" y2="-1" width="0.0762" layer="20"/>
-<wire x1="-4.5" y1="-1" x2="-4.5" y2="1" width="0.0762" layer="20" curve="-180"/>
-<wire x1="4.5" y1="1" x2="4.5" y2="-1" width="0.0762" layer="20" curve="-180"/>
-</package>
-<package name="PAD_ONLY">
-<smd name="P$1" x="0" y="0" dx="8" dy="3" layer="1"/>
-</package>
-<package name="SQUARE_PAD">
-<smd name="P$1" x="0" y="0" dx="10" dy="10" layer="1"/>
-</package>
-<package name="1X2_LIGHTPANEL_CONN_STUD">
-<smd name="P$1" x="0" y="6" dx="8" dy="4" layer="1"/>
-<smd name="P$2" x="0" y="-6" dx="8" dy="4" layer="1"/>
+<package name="12X4">
+<smd name="P$1" x="-6" y="0" dx="0.85" dy="4" layer="1" rot="R180"/>
+<smd name="P$2" x="6" y="0" dx="0.85" dy="4" layer="1" rot="R180"/>
+<wire x1="-5.5" y1="2" x2="5.5" y2="2" width="0.0762" layer="21"/>
+<wire x1="5.5" y1="-2" x2="-5.5" y2="-2" width="0.0762" layer="21"/>
+<wire x1="-4.3" y1="0.2" x2="-4.3" y2="-0.2" width="0.0762" layer="21"/>
+<wire x1="-4.3" y1="-0.2" x2="-3.9" y2="-0.2" width="0.0762" layer="21"/>
+<wire x1="-4.3" y1="0.2" x2="-3.9" y2="0.2" width="0.0762" layer="21"/>
+<wire x1="-3.9" y1="0.2" x2="-3.9" y2="-0.2" width="0.0762" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="1X2_LIGHTPANEL_CONN">
-<pin name="P$1" x="10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="P$2" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="5.842" size="1.4224" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.4224" layer="95" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="PAD_ONLY">
-<pin name="P$1" x="10.16" y="0" length="middle" rot="R180"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="3.302" size="1.4224" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.4224" layer="95" font="vector">&gt;VALUE</text>
+<symbol name="RFANT">
+<wire x1="0" y1="-2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="point" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1X2_LIGHTPANEL_CONN" prefix="J">
+<deviceset name="ACAG1204-915-T">
 <gates>
-<gate name="G$1" symbol="1X2_LIGHTPANEL_CONN" x="0" y="0"/>
+<gate name="G$1" symbol="RFANT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X2_LIGHTPANEL_CONN">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="GROUND_STUD" package="1X2_LIGHTPANEL_CONN_STUD">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PAD_ONLY">
-<gates>
-<gate name="G$1" symbol="PAD_ONLY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD_ONLY">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SQUARE" package="SQUARE_PAD">
+<device name="" package="12X4">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>

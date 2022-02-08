@@ -104,6 +104,44 @@
 <smd name="20" x="-1" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270"/>
 <smd name="21" x="0" y="0" dx="2.7" dy="2.7" layer="1" cream="no"/>
 </package>
+<package name="QFN21P50_400X400X100L40X24T270N-DNP">
+<wire x1="-2" y1="1.524" x2="-2" y2="2" width="0.2" layer="21"/>
+<wire x1="-2" y1="2" x2="-1.524" y2="2" width="0.2" layer="21"/>
+<wire x1="1.524" y1="2" x2="2" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="1.524" x2="2" y2="2" width="0.2" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.524" width="0.2" layer="21"/>
+<wire x1="-2" y1="-2" x2="-1.524" y2="-2" width="0.2" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.524" width="0.2" layer="21"/>
+<wire x1="1.524" y1="-2" x2="2" y2="-2" width="0.2" layer="21"/>
+<circle x="-2.54" y="1.397" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.1" layer="51"/>
+<text x="-2.54496875" y="3.181209375" size="1.272490625" layer="25">&gt;NAME</text>
+<text x="-2.542409375" y="-4.449209375" size="1.2712" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.905" y="1" dx="0.71" dy="0.26" layer="1" roundness="54" stop="no" cream="no"/>
+<smd name="2" x="-1.905" y="0.5" dx="0.71" dy="0.26" layer="1" roundness="54" stop="no" cream="no"/>
+<smd name="3" x="-1.905" y="0" dx="0.71" dy="0.26" layer="1" roundness="54" stop="no" cream="no"/>
+<smd name="4" x="-1.905" y="-0.5" dx="0.71" dy="0.26" layer="1" roundness="54" stop="no" cream="no"/>
+<smd name="5" x="-1.905" y="-1" dx="0.71" dy="0.26" layer="1" roundness="54" stop="no" cream="no"/>
+<smd name="6" x="-1" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90" stop="no" cream="no"/>
+<smd name="7" x="-0.5" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90" stop="no" cream="no"/>
+<smd name="8" x="0" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="0.5" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="1" y="-1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R90" stop="no" cream="no"/>
+<smd name="11" x="1.905" y="-1" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180" stop="no" cream="no"/>
+<smd name="12" x="1.905" y="-0.5" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180" stop="no" cream="no"/>
+<smd name="13" x="1.905" y="0" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180" stop="no" cream="no"/>
+<smd name="14" x="1.905" y="0.5" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180" stop="no" cream="no"/>
+<smd name="15" x="1.905" y="1" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R180" stop="no" cream="no"/>
+<smd name="16" x="1" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270" stop="no" cream="no"/>
+<smd name="17" x="0.5" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270" stop="no" cream="no"/>
+<smd name="18" x="0" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270" stop="no" cream="no"/>
+<smd name="19" x="-0.5" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270" stop="no" cream="no"/>
+<smd name="20" x="-1" y="1.905" dx="0.71" dy="0.26" layer="1" roundness="54" rot="R270" stop="no" cream="no"/>
+<smd name="21" x="0" y="0" dx="2.7" dy="2.7" layer="1" stop="no" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP23008-E/ML">
@@ -168,6 +206,30 @@
 <attribute name="PACKAGE" value="QFN-20 Microchip"/>
 <attribute name="PRICE" value="None"/>
 </technology>
+</technologies>
+</device>
+<device name="DNP" package="QFN21P50_400X400X100L40X24T270N-DNP">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="A0" pad="3"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="1"/>
+<connect gate="G$1" pin="GP0" pad="9"/>
+<connect gate="G$1" pin="GP1" pad="10"/>
+<connect gate="G$1" pin="GP2" pad="11"/>
+<connect gate="G$1" pin="GP3" pad="12"/>
+<connect gate="G$1" pin="GP4" pad="13"/>
+<connect gate="G$1" pin="GP5" pad="14"/>
+<connect gate="G$1" pin="GP6" pad="15"/>
+<connect gate="G$1" pin="GP7" pad="16"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="19"/>
+<connect gate="G$1" pin="SDA" pad="20"/>
+<connect gate="G$1" pin="VDD" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="17 21"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

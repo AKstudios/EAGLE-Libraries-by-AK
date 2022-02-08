@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="VISHAY_SI2347DS-T1-GE3_0">
+                    <description>P-Channel 30 V (D-S) MOSFET</description>
+                    <wire layer="51" y2="0.7" width="0.15" x2="-1.52" y1="-0.7" x1="-1.52"/>
+                    <wire layer="51" y2="0.7" width="0.15" x2="1.52" y1="0.7" x1="-1.52"/>
+                    <wire layer="51" y2="-0.7" width="0.15" x2="1.52" y1="0.7" x1="1.52"/>
+                    <wire layer="51" y2="-0.7" width="0.15" x2="-1.52" y1="-0.7" x1="1.52"/>
+                    <wire layer="21" y2="0.7" width="0.15" x2="-0.654" y1="0.7" x1="-1.52"/>
+                    <wire layer="21" y2="0.7" width="0.15" x2="1.52" y1="0.7" x1="0.654"/>
+                    <wire layer="21" y2="0.7" width="0.15" x2="1.52" y1="-0.247" x1="1.52"/>
+                    <wire layer="21" y2="0.7" width="0.15" x2="-1.52" y1="-0.247" x1="-1.52"/>
+                    <wire layer="39" y2="1.446" width="0.1" x2="-1.62" y1="-1.446" x1="-1.62"/>
+                    <wire layer="39" y2="1.446" width="0.1" x2="1.62" y1="1.446" x1="-1.62"/>
+                    <wire layer="39" y2="-1.446" width="0.1" x2="1.62" y1="1.446" x1="1.62"/>
+                    <wire layer="39" y2="-1.446" width="0.1" x2="-1.62" y1="-1.446" x1="1.62"/>
+                    <text layer="25" align="bottom-left" y="1.65" x="-1.82" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.559" dy="0.724" y="-0.984" x="-0.95" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.559" dy="0.724" y="-0.984" x="0.95" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.559" dy="0.724" y="0.984" x="0.0" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="VISHAY_SI2347DS-T1-GE3_0_0">
+                    <description>P-Channel 30 V (D-S) MOSFET</description>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="1.016" y1="-7.62" x1="1.016"/>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="1.778" y1="-3.556" x1="1.778"/>
+                    <wire layer="94" y2="-7.112" width="0.508" x2="5.08" y1="-7.112" x1="1.778"/>
+                    <wire layer="94" y2="-3.048" width="0.508" x2="5.08" y1="-3.048" x1="1.778"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="1.778" y1="-5.08" x1="4.826"/>
+                    <wire layer="94" y2="-4.318" width="0.508" x2="3.81" y1="-5.08" x1="5.08"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="3.81" y1="-5.08" x1="5.08"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="3.81" y1="-4.318" x1="3.81"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="4.064" y1="-4.826" x1="4.064"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="1.778" y1="-6.604" x1="1.778"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="1.778" y1="-4.572" x1="1.778"/>
+                    <wire layer="94" y2="-7.112" width="0.508" x2="6.858" y1="-7.112" x1="5.08"/>
+                    <wire layer="94" y2="-7.112" width="0.508" x2="6.858" y1="-3.048" x1="6.858"/>
+                    <wire layer="94" y2="-3.048" width="0.508" x2="5.08" y1="-3.048" x1="6.858"/>
+                    <wire layer="94" y2="-4.572" width="0.508" x2="7.366" y1="-5.588" x1="6.858"/>
+                    <wire layer="94" y2="-4.572" width="0.508" x2="6.35" y1="-4.572" x1="7.366"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="6.858" y1="-4.572" x1="6.35"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="6.35" y1="-5.588" x1="6.858"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="6.096" y1="-5.588" x1="6.35"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="7.366" y1="-5.588" x1="6.858"/>
+                    <wire layer="94" y2="-5.334" width="0.508" x2="7.62" y1="-5.588" x1="7.366"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="1.016" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="5.08" y1="-5.08" x1="5.08"/>
+                    <wire layer="94" y2="-3.048" width="0.15" x2="5.08" y1="-2.54" x1="5.08"/>
+                    <text layer="95" align="top-left" y="-2.54" x="10.922" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-5.334" x="10.922" rot="R0" size="2.54">SI2347DS-T1-GE3</text>
+                    <pin direction="pas" name="G" visible="pad" length="middle" y="-5.08" x="-5.08"/>
+                    <pin direction="pas" name="S" visible="pad" length="middle" y="-10.16" x="5.08" rot="R90"/>
+                    <pin direction="pas" name="D" visible="pad" length="middle" y="2.54" x="5.08" rot="R270"/>
+                    <circle y="-3.048" x="5.08" layer="94" radius="0.254" width="0.254"/>
+                    <circle y="-7.112" x="5.08" layer="94" radius="0.254" width="0.254"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="Q" name="VISHAY_SI2347DS-T1-GE3">
+                    <description>P-Channel 30 V (D-S) MOSFET</description>
+                    <gates>
+                        <gate name="G$0" symbol="VISHAY_SI2347DS-T1-GE3_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="VISHAY_SI2347DS-T1-GE3_0_0" package="VISHAY_SI2347DS-T1-GE3_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="G"/>
+                                <connect gate="G$0" pad="2" pin="S"/>
+                                <connect gate="G$0" pad="3" pin="D"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="78-SI2347DS-T1-GE3"/>
+                                    <attribute name="mouser_description" value="P-Channel 30 V 42 mOhm 22 nC Surface Mount Power Mosfet - SOT-23-3"/>
+                                    <attribute name="mfg_package_ident_rev" value="K"/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="MPN" value="SI2347DS-T1-GE3"/>
+                                    <attribute name="gate_to_source_voltage" value="20V"/>
+                                    <attribute name="device_class_L3" value="MOSFETs"/>
+                                    <attribute name="device_class_L1" value="Discrete Semiconductors"/>
+                                    <attribute name="digikey_part_number" value="SI2347DS-T1-GE3CT-ND"/>
+                                    <attribute name="prefix" value="Q"/>
+                                    <attribute name="gate_charge_at_vgs" value="pF @ mV"/>
+                                    <attribute name="verification_version" value="0.0.0.1"/>
+                                    <attribute name="drain_to_source_voltage" value="-30V"/>
+                                    <attribute name="datasheet" value="https://www.vishay.com/docs/62827/si2347ds.pdf"/>
+                                    <attribute name="power_dissipation" value="1.7W"/>
+                                    <attribute name="technology" value="MOSFET"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="height" value="1.12mm"/>
+                                    <attribute name="mfg_package_ident" value="S-03946"/>
+                                    <attribute name="drain_to_source_breakdown_voltage" value="-30V"/>
+                                    <attribute name="number_of_P_channels" value="1"/>
+                                    <attribute name="device_class_L2" value="Transistors"/>
+                                    <attribute name="continuous_drain_current" value="5A"/>
+                                    <attribute name="digikey_description" value="TRANS MOSFET P-CH 30V 5A SOT-23"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="standoff_height" value="0.01mm"/>
+                                    <attribute name="mfg_package_ident_date" value="09/07/2001"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Vishay"/>
+                                    <attribute name="package" value="SOT-23"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
