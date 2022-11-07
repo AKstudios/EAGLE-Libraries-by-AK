@@ -1,8 +1,10 @@
-<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
-<eagle version="7.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -57,49 +59,6 @@
 <library>
 <packages>
 <package name="XDCR_SPU0410LR5H-QB">
-<polygon width="0.001" layer="1">
-<vertex x="-0.0005" y="-0.4295"/>
-<vertex x="-0.0005" y="-0.1225" curve="90"/>
-<vertex x="-0.612" y="-0.73"/>
-<vertex x="-0.612" y="-0.739" curve="90"/>
-<vertex x="0" y="-1.3465"/>
-<vertex x="0.001" y="-1.3465" curve="90"/>
-<vertex x="0.612" y="-0.74"/>
-<vertex x="0.612" y="-0.71" curve="89"/>
-<vertex x="0.0005" y="-0.1225"/>
-<vertex x="0.0005" y="-0.4295" curve="-90"/>
-<vertex x="0.305" y="-0.73"/>
-<vertex x="0.305" y="-0.74" curve="-90"/>
-<vertex x="0" y="-1.0395"/>
-<vertex x="-0.01" y="-1.0395" curve="-90"/>
-<vertex x="-0.305" y="-0.74"/>
-<vertex x="-0.305" y="-0.73" curve="-90"/>
-</polygon>
-<circle x="0" y="-0.7345" radius="0.4585" width="0.32" layer="29"/>
-<polygon width="0.001" layer="31">
-<vertex x="0.480125" y="-0.360441" curve="-77"/>
-<vertex x="0.480125" y="-1.10856"/>
-<vertex x="0.262334" y="-0.890769" curve="64"/>
-<vertex x="0.262334" y="-0.578231"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="0.374059" y="-1.21463" curve="-77"/>
-<vertex x="-0.374059" y="-1.21463"/>
-<vertex x="-0.156269" y="-0.996834" curve="64"/>
-<vertex x="0.156269" y="-0.996834"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-0.374059" y="-0.254375" curve="-77"/>
-<vertex x="0.374059" y="-0.254375"/>
-<vertex x="0.156269" y="-0.472166" curve="64"/>
-<vertex x="-0.156269" y="-0.472166"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-0.480125" y="-1.10856" curve="-77"/>
-<vertex x="-0.480125" y="-0.360441"/>
-<vertex x="-0.262334" y="-0.578231" curve="64"/>
-<vertex x="-0.262334" y="-0.890769"/>
-</polygon>
 <wire x1="-1.5" y1="-1.88" x2="-1.5" y2="1.88" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="1.88" x2="1.5" y2="1.88" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.88" x2="1.5" y2="-1.88" width="0.127" layer="51"/>
@@ -121,7 +80,6 @@
 <smd name="2" x="-1.015" y="-1.3685" dx="0.562" dy="0.562" layer="1" roundness="100"/>
 <smd name="3" x="1.015" y="-1.3685" dx="0.562" dy="0.562" layer="1" roundness="100"/>
 <smd name="4" x="0.966" y="1.3685" dx="0.723" dy="0.723" layer="1" roundness="100"/>
-<smd name="6" x="0.47" y="-0.74" dx="0.25" dy="0.25" layer="1" stop="no" cream="no"/>
 <hole x="0" y="-0.7345" drill="0.35"/>
 </package>
 </packages>
@@ -147,21 +105,19 @@
 <devices>
 <device name="" package="XDCR_SPU0410LR5H-QB">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 3 5 6"/>
+<connect gate="G$1" pin="GND" pad="2 3 5"/>
 <connect gate="G$1" pin="OUTPUT" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Package" value="None"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/SPU0410LR5H-QB/?ref=eda"/>
-<attribute name="MP" value="SPU0410LR5H-QB"/>
-<attribute name="Description" value="
-100 Hz ~ 80 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.6 V Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads
-"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100 Hz ~ 80 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.6 V Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads "/>
 <attribute name="MF" value="Knowles"/>
+<attribute name="MP" value="SPU0410LR5H-QB"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SPU0410LR5H-QB/?ref=eda"/>
 </technology>
 </technologies>
 </device>
